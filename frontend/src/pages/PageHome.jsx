@@ -41,7 +41,7 @@ export default function PageHome() {
             title="Consultar Agendamento"
             description="Verificar dados de um agendamento"
             icon={Search}
-            to="/agendamentos"
+            to="/consultar-agendamentos"
           />
         </div>
       </section>

@@ -8,6 +8,7 @@ import CadastroCidadao from "./pages/CadastroCidadao";
 import CadastroProfissional from "./pages/CadastroProfissional";
 import Agendamento from "./pages/Agendamento";
 import Login from "./pages/login";
+import ConsultarAgendamentos from "./pages/ConsultarAgendamento";
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/cadastro/profissional" element={<CadastroProfissional />} />
           <Route path="/agendamento" element={<Agendamento />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/consultar-agendamentos" element={<ConsultarAgendamentos />} />
           
         </Routes>
       </main>
